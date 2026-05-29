@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Auburn's Trusted Appliance Repair</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://unpkg.com" crossorigin />
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./docs/Style.css" />
+</head>
+
+<body class="overflow-x-hidden">
+
+    <div id="navbar"></div>
+
+    <!-- hero Section -->
+    <section id="home" class="relative mt-24 flex w-full items-center justify-center overflow-hidden "
+        style="background-image: url('./docs/assets/samsung.webp'); background-position: center; background-size: cover;">
+        <div class="absolute inset-0 bg-black/55"></div>
+
+        <div
+            class="relative z-10 mx-auto flex w-full max-w-6xl flex-col items-center px-5 py-24 text-center sm:px-8 lg:px-10">
+            <h1
+                class="max-w-4xl text-3xl font-bold leading-tight md:leading-[1.3] tracking-tight text-white drop-shadow-[0_3px_18px_rgba(0,0,0,0.45)] sm:text-5xl ">
+                Appliance Repair FAQ for Auburn, CA
+
+            </h1>
+            <p class="mt-4 text-lg text-white">Common Questions and Expert Answers from Local Appliance Technicians
+
+
+            </p>
+
+            <a href="tel:5304478105"
+                class="mt-8 inline-flex items-center gap-3 rounded-md bg-[#652030] px-7 py-2.5 text-lg font-semibold text-white shadow-lg shadow-black/30 transition duration-300 hover:-translate-y-0.5 hover:bg-[#533e3e] hover:shadow-xl hover:shadow-black/40">
+                <i class="fa-solid fa-phone-volume text-xl"></i>
+                CALL US (530) 447-8105
+            </a>
+        </div>
+    </section>
+
+    <section class="bg-white px-5 py-16 text-[#111827] sm:px-8 lg:px-10 lg:py-20">
+        <div class="mx-auto max-w-7xl">
+            <h2 class="text-3xl font-bold leading-tight tracking-tight text-[#111827] sm:text-4xl">
+                General Appliance Repair Questions
+            </h2>
+
+            <div class="mt-8 space-y-4" data-faq-accordion>
+                <div class="rounded-lg bg-[#f4f4f4]">
+                    <button type="button"
+                        class="faq-toggle flex w-full items-center justify-between gap-4 px-5 py-5 text-left md:text-lg font-semibold leading-tight text-[#2b2b2b]"
+                        aria-expanded="true">
+                        <span>1. Do you offer same-day appliance repair in Auburn?</span>
+                        <i class="faq-icon fa-solid fa-minus text-xl text-[#652030] transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-panel max-h-[500px] overflow-hidden px-5 pb-6 text-lg leading-8 text-[#1f2937] transition-all duration-300 ease-in-out">
+                        <p>Yes—same-day service is often available depending on technician scheduling and part availability. Prioritize urgent repairs whenever possible.</p>
+                    </div>
+                </div>
+
+                <div class="rounded-lg bg-[#f4f4f4]">
+                    <button type="button"
+                        class="faq-toggle flex w-full items-center justify-between gap-4 px-5 py-5 text-left md:text-lg font-semibold leading-tight text-[#2b2b2b]"
+                        aria-expanded="false">
+                        <span>2. Which types of appliances do you service?</span>
+                        <i class="faq-icon fa-solid fa-plus text-xl text-[#652030] transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-panel max-h-0 overflow-hidden px-5 pb-0 text-lg leading-8 text-[#1f2937] transition-all duration-300 ease-in-out">
+                        <p>Work on most major home appliances including refrigerators, ovens, stoves, dishwashers, washing machines, dryers, and ice makers. Do not service microwaves at this time.</p>
+                    </div>
+                </div>
+
+                <div class="rounded-lg bg-[#f4f4f4]">
+                    <button type="button"
+                        class="faq-toggle flex w-full items-center justify-between gap-4 px-5 py-5 text-left md:text-lg font-semibold leading-tight text-[#2b2b2b]"
+                        aria-expanded="false">
+                        <span>3. What brands of appliances do you repair?</span>
+                        <i class="faq-icon fa-solid fa-plus text-xl text-[#652030] transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-panel max-h-0 overflow-hidden px-5 pb-0 text-lg leading-8 text-[#1f2937] transition-all duration-300 ease-in-out">
+                        <p>Technicians are experienced with all leading brands like Whirlpool, GE, LG, Samsung, Maytag, Frigidaire, Kenmore, Bosch, KitchenAid, Sub-Zero, and more.</p>
+                    </div>
+                </div>
+
+                <div class="rounded-lg bg-[#f4f4f4]">
+                    <button type="button"
+                        class="faq-toggle flex w-full items-center justify-between gap-4 px-5 py-5 text-left md:text-lg font-semibold leading-tight text-[#2b2b2b]"
+                        aria-expanded="false">
+                        <span>4. How much does appliance repair typically cost?</span>
+                        <i class="faq-icon fa-solid fa-plus text-xl text-[#652030] transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-panel max-h-0 overflow-hidden px-5 pb-0 text-lg leading-8 text-[#1f2937] transition-all duration-300 ease-in-out">
+                        <p>Costs can vary by appliance and issue. Industry averages range from $130 to $400, depending on the appliance, parts needed, and time involved. A diagnosis is usually required to provide an accurate estimate.</p>
+                    </div>
+                </div>
+
+                <div class="rounded-lg bg-[#f4f4f4]">
+                    <button type="button"
+                        class="faq-toggle flex w-full items-center justify-between gap-4 px-5 py-5 text-left md:text-lg font-semibold leading-tight text-[#2b2b2b]"
+                        aria-expanded="false">
+                        <span>5. What’s the average lifespan of a home appliance?</span>
+                        <i class="faq-icon fa-solid fa-plus text-xl text-[#652030] transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-panel max-h-0 overflow-hidden px-5 pb-0 text-lg leading-8 text-[#1f2937] transition-all duration-300 ease-in-out">
+                        <p>Most major appliances last between 10–15 years. Dishwashers and microwaves may wear out closer to 7–10 years, while ovens and refrigerators can sometimes last 15+ years with proper maintenance.</p>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="mt-14 text-2xl font-bold leading-tight tracking-tight text-[#111827] sm:text-3xl">
+                Troubleshooting & Performance Issues
+            </h3>
+
+            <div class="mt-8 space-y-4" data-faq-accordion>
+                <div class="rounded-lg bg-[#f4f4f4]">
+                    <button type="button"
+                        class="faq-toggle flex w-full items-center justify-between gap-4 px-5 py-5 text-left md:text-lg font-semibold leading-tight text-[#2b2b2b]"
+                        aria-expanded="false">
+                        <span>6. Why is my refrigerator running but not cooling?</span>
+                        <i class="faq-icon fa-solid fa-plus text-xl text-[#652030] transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-panel max-h-0 overflow-hidden px-5 pb-0 text-lg leading-8 text-[#1f2937] transition-all duration-300 ease-in-out">
+                        <p>This could be due to dirty condenser coils, a faulty evaporator fan motor, a failed thermostat, or a sealed system issue. Each requires different diagnostics.</p>
+                    </div>
+                </div>
+
+                <div class="rounded-lg bg-[#f4f4f4]">
+                    <button type="button"
+                        class="faq-toggle flex w-full items-center justify-between gap-4 px-5 py-5 text-left md:text-lg font-semibold leading-tight text-[#2b2b2b]"
+                        aria-expanded="false">
+                        <span>7. My oven won’t heat up. What’s wrong?</span>
+                        <i class="faq-icon fa-solid fa-plus text-xl text-[#652030] transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-panel max-h-0 overflow-hidden px-5 pb-0 text-lg leading-8 text-[#1f2937] transition-all duration-300 ease-in-out">
+                        <p>Common causes include a failed igniter (gas ovens), a bad heating element (electric ovens), or a faulty thermostat or control board.</p>
+                    </div>
+                </div>
+
+                <div class="rounded-lg bg-[#f4f4f4]">
+                    <button type="button"
+                        class="faq-toggle flex w-full items-center justify-between gap-4 px-5 py-5 text-left md:text-lg font-semibold leading-tight text-[#2b2b2b]"
+                        aria-expanded="false">
+                        <span>8. Why is my washing machine shaking violently during spin cycles?</span>
+                        <i class="faq-icon fa-solid fa-plus text-xl text-[#652030] transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-panel max-h-0 overflow-hidden px-5 pb-0 text-lg leading-8 text-[#1f2937] transition-all duration-300 ease-in-out">
+                        <p>This usually means the load is unbalanced or the leveling legs need adjusting. Damaged suspension rods or worn shock absorbers could also be to blame.</p>
+                    </div>
+                </div>
+
+                <div class="rounded-lg bg-[#f4f4f4]">
+                    <button type="button"
+                        class="faq-toggle flex w-full items-center justify-between gap-4 px-5 py-5 text-left md:text-lg font-semibold leading-tight text-[#2b2b2b]"
+                        aria-expanded="false">
+                        <span>9. My dishwasher isn’t draining—what should I check?</span>
+                        <i class="faq-icon fa-solid fa-plus text-xl text-[#652030] transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-panel max-h-0 overflow-hidden px-5 pb-0 text-lg leading-8 text-[#1f2937] transition-all duration-300 ease-in-out">
+                        <p>Look for a clogged filter, a kinked drain hose, or a faulty drain pump. If it’s connected to a garbage disposal, ensure that line isn’t blocked as well.</p>
+                    </div>
+                </div>
+
+                <div class="rounded-lg bg-[#f4f4f4]">
+                    <button type="button"
+                        class="faq-toggle flex w-full items-center justify-between gap-4 px-5 py-5 text-left md:text-lg font-semibold leading-tight text-[#2b2b2b]"
+                        aria-expanded="false">
+                        <span>10. Why does my dryer run but not heat?</span>
+                        <i class="faq-icon fa-solid fa-plus text-xl text-[#652030] transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-panel max-h-0 overflow-hidden px-5 pb-0 text-lg leading-8 text-[#1f2937] transition-all duration-300 ease-in-out">
+                        <p>This could indicate a burned-out heating element, a failed thermostat, a tripped thermal fuse, or a power supply issue (especially on 240V dryers).</p>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="mt-14 text-2xl font-bold leading-tight tracking-tight text-[#111827] sm:text-3xl">
+                Advanced & Technical Questions
+            </h3>
+
+            <div class="mt-8 space-y-4" data-faq-accordion>
+                <div class="rounded-lg bg-[#f4f4f4]">
+                    <button type="button"
+                        class="faq-toggle flex w-full items-center justify-between gap-4 px-5 py-5 text-left md:text-lg font-semibold leading-tight text-[#2b2b2b]"
+                        aria-expanded="false">
+                        <span>11. What does the error code “LE” on my LG washer mean?</span>
+                        <i class="faq-icon fa-solid fa-plus text-xl text-[#652030] transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-panel max-h-0 overflow-hidden px-5 pb-0 text-lg leading-8 text-[#1f2937] transition-all duration-300 ease-in-out">
+                        <p>“LE” usually refers to a motor overload error. This could be caused by too heavy a load, worn rotor/stator components, or a failed hall sensor.</p>
+                    </div>
+                </div>
+
+                <div class="rounded-lg bg-[#f4f4f4]">
+                    <button type="button"
+                        class="faq-toggle flex w-full items-center justify-between gap-4 px-5 py-5 text-left md:text-lg font-semibold leading-tight text-[#2b2b2b]"
+                        aria-expanded="false">
+                        <span>12. Can I replace just the compressor on my refrigerator?</span>
+                        <i class="faq-icon fa-solid fa-plus text-xl text-[#652030] transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-panel max-h-0 overflow-hidden px-5 pb-0 text-lg leading-8 text-[#1f2937] transition-all duration-300 ease-in-out">
+                        <p>Yes, but it’s a complex, costly repair typically recommended only for high-end units. A failed compressor also means potential sealed system contamination, requiring specialized tools.</p>
+                    </div>
+                </div>
+
+                <div class="rounded-lg bg-[#f4f4f4]">
+                    <button type="button"
+                        class="faq-toggle flex w-full items-center justify-between gap-4 px-5 py-5 text-left md:text-lg font-semibold leading-tight text-[#2b2b2b]"
+                        aria-expanded="false">
+                        <span>13. My dryer smells like it’s burning—is that dangerous?</span>
+                        <i class="faq-icon fa-solid fa-plus text-xl text-[#652030] transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-panel max-h-0 overflow-hidden px-5 pb-0 text-lg leading-8 text-[#1f2937] transition-all duration-300 ease-in-out">
+                        <p>Yes. Shut it off immediately. The most common causes are lint buildup inside the cabinet, a worn-out belt rubbing, or a faulty motor. A technician should inspect it right away.</p>
+                    </div>
+                </div>
+
+                <div class="rounded-lg bg-[#f4f4f4]">
+                    <button type="button"
+                        class="faq-toggle flex w-full items-center justify-between gap-4 px-5 py-5 text-left md:text-lg font-semibold leading-tight text-[#2b2b2b]"
+                        aria-expanded="false">
+                        <span>14. Why does my stove click but won’t ignite?</span>
+                        <i class="faq-icon fa-solid fa-plus text-xl text-[#652030] transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-panel max-h-0 overflow-hidden px-5 pb-0 text-lg leading-8 text-[#1f2937] transition-all duration-300 ease-in-out">
+                        <p>This often points to moisture in the igniter, a clogged burner port, or a failed spark module. Try drying the igniter area and cleaning the burner head before calling for service.</p>
+                    </div>
+                </div>
+
+                <div class="rounded-lg bg-[#f4f4f4]">
+                    <button type="button"
+                        class="faq-toggle flex w-full items-center justify-between gap-4 px-5 py-5 text-left md:text-lg font-semibold leading-tight text-[#2b2b2b]"
+                        aria-expanded="false">
+                        <span>15. Can a control board be repaired or does it always need replacement?</span>
+                        <i class="faq-icon fa-solid fa-plus text-xl text-[#652030] transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-panel max-h-0 overflow-hidden px-5 pb-0 text-lg leading-8 text-[#1f2937] transition-all duration-300 ease-in-out">
+                        <p>In some cases, control boards can be repaired by reflowing solder joints or replacing relays, but most modern appliance techs recommend replacing the board for reliability.</p>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="mt-14 text-2xl font-bold leading-tight tracking-tight text-[#111827] sm:text-3xl">
+                Appliance Maintenance & Service Questions
+            </h3>
+
+            <div class="mt-8 space-y-4" data-faq-accordion>
+                <div class="rounded-lg bg-[#f4f4f4]">
+                    <button type="button"
+                        class="faq-toggle flex w-full items-center justify-between gap-4 px-5 py-5 text-left md:text-lg font-semibold leading-tight text-[#2b2b2b]"
+                        aria-expanded="false">
+                        <span>16. How often should I clean my dryer vent?</span>
+                        <i class="faq-icon fa-solid fa-plus text-xl text-[#652030] transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-panel max-h-0 overflow-hidden px-5 pb-0 text-lg leading-8 text-[#1f2937] transition-all duration-300 ease-in-out">
+                        <p>At least once a year. More often if you notice clothes taking longer to dry. Blocked vents are a major fire hazard and reduce dryer efficiency.</p>
+                    </div>
+                </div>
+
+                <div class="rounded-lg bg-[#f4f4f4]">
+                    <button type="button"
+                        class="faq-toggle flex w-full items-center justify-between gap-4 px-5 py-5 text-left md:text-lg font-semibold leading-tight text-[#2b2b2b]"
+                        aria-expanded="false">
+                        <span>17. Is it worth replacing the door gasket on my fridge?</span>
+                        <i class="faq-icon fa-solid fa-plus text-xl text-[#652030] transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-panel max-h-0 overflow-hidden px-5 pb-0 text-lg leading-8 text-[#1f2937] transition-all duration-300 ease-in-out">
+                        <p>Yes—if your fridge door doesn’t seal tightly, it can cause cooling issues and raise your energy bill. Replacing the gasket is an easy, cost-effective fix.</p>
+                    </div>
+                </div>
+
+                <div class="rounded-lg bg-[#f4f4f4]">
+                    <button type="button"
+                        class="faq-toggle flex w-full items-center justify-between gap-4 px-5 py-5 text-left md:text-lg font-semibold leading-tight text-[#2b2b2b]"
+                        aria-expanded="false">
+                        <span>18. Why does my dishwasher leave a white film on my dishes?</span>
+                        <i class="faq-icon fa-solid fa-plus text-xl text-[#652030] transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-panel max-h-0 overflow-hidden px-5 pb-0 text-lg leading-8 text-[#1f2937] transition-all duration-300 ease-in-out">
+                        <p>This is often due to hard water or too much detergent. Using a rinse aid or cleaning the dishwasher with a descaler can help reduce buildup.</p>
+                    </div>
+                </div>
+
+                <div class="rounded-lg bg-[#f4f4f4]">
+                    <button type="button"
+                        class="faq-toggle flex w-full items-center justify-between gap-4 px-5 py-5 text-left md:text-lg font-semibold leading-tight text-[#2b2b2b]"
+                        aria-expanded="false">
+                        <span>19. Do you service smart appliances or connected units?</span>
+                        <i class="faq-icon fa-solid fa-plus text-xl text-[#652030] transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-panel max-h-0 overflow-hidden px-5 pb-0 text-lg leading-8 text-[#1f2937] transition-all duration-300 ease-in-out">
+                        <p>Yes. Many technicians are trained to diagnose issues on smart refrigerators, Wi-Fi washers, and touchscreen-enabled ovens from brands like LG, Samsung, Whirlpool, and GE.</p>
+                    </div>
+                </div>
+
+                <div class="rounded-lg bg-[#f4f4f4]">
+                    <button type="button"
+                        class="faq-toggle flex w-full items-center justify-between gap-4 px-5 py-5 text-left md:text-lg font-semibold leading-tight text-[#2b2b2b]"
+                        aria-expanded="false">
+                        <span>20. What should I do if I hear a loud banging or grinding sound in my appliance?</span>
+                        <i class="faq-icon fa-solid fa-plus text-xl text-[#652030] transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-panel max-h-0 overflow-hidden px-5 pb-0 text-lg leading-8 text-[#1f2937] transition-all duration-300 ease-in-out">
+                        <p>Stop using it immediately to avoid further damage. This may indicate a loose drum, a broken motor mount, or a failing internal component that needs inspection.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Call To Action Section -->
+    <section
+        class="relative isolate flex min-h-[560px]  items-center justify-center overflow-hidden bg-black px-5 py-24 text-white sm:px-8 lg:px-10"
+        style="background-image: url('./docs/assets/img1.webp'); background-position: center; background-size: cover; background-attachment: fixed;">
+        <div class="absolute inset-0 bg-black/58"></div>
+
+
+        <div class="relative z-10 mx-auto w-full max-w-7xl text-center">
+            <h2
+                class="mx-auto max-w-5xl text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl md:text-4xl">
+                Need Help With Your Appliance Issue?
+
+            </h2>
+
+            <div class="mt-10 grid gap-10 text-lg max-w-5xl mx-auto leading-9 text-white/95 ">
+                <p>
+                    Reach to us and we’ll help you!
+
+
+                </p>
+            </div>
+
+            <div class="mt-12 flex flex-col items-center gap-4">
+                <a href="tel:5304478105"
+                    class="inline-flex items-center gap-3 rounded-md bg-[#692434] px-7 py-2.5 text-xl font-semibold text-white shadow-lg shadow-black/25 transition duration-300 hover:-translate-y-0.5 hover:bg-[#922847] hover:shadow-xl hover:shadow-black/35">
+                    <i class="fa-solid fa-phone-volume text-xl"></i>
+                    CALL US NOW (530) 447-8105
+                </a>
+                <a href="#"
+                    class="inline-flex items-center gap-3 rounded-md bg-[#1f1f1f] px-7 py-2.5 text-xl font-semibold text-white shadow-lg shadow-black/25 transition duration-300 hover:-translate-y-0.5 hover:bg-[#2a2a2a] hover:shadow-xl hover:shadow-black/35">
+                    <i class="fa-solid fa-phone-volume text-xl"></i>
+                    SERVING AUBURN AND SURROUNDING AREAS
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer"></div>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://unpkg.com/lenis@1.3.1/dist/lenis.min.js"></script>
+    <script src="./docs/javascript/global.js"></script>
+    <script src="./docs/javascript/Navbar.js"></script>
+    <script src="./docs/javascript/Footer.js"></script>
+    <script>
+        document.querySelectorAll('[data-faq-accordion]').forEach((accordion) => {
+            const items = Array.from(accordion.querySelectorAll('.faq-toggle')).map((toggle) => {
+                const panel = toggle.nextElementSibling;
+                const icon = toggle.querySelector('.faq-icon');
+                return { toggle, panel, icon };
+            });
+
+            const closeItem = (item) => {
+                item.toggle.setAttribute('aria-expanded', 'false');
+                item.panel.style.maxHeight = '0px';
+                item.panel.style.paddingTop = '0px';
+                item.panel.style.paddingBottom = '0px';
+                item.icon.classList.remove('fa-minus');
+                item.icon.classList.add('fa-plus');
+                item.panel.dataset.open = 'false';
+            };
+
+            const openItem = (item) => {
+                item.toggle.setAttribute('aria-expanded', 'true');
+                item.panel.dataset.open = 'true';
+                item.panel.style.paddingTop = '0px';
+                item.panel.style.paddingBottom = '1.5rem';
+                item.panel.style.maxHeight = item.panel.scrollHeight + 24 + 'px';
+                item.icon.classList.remove('fa-plus');
+                item.icon.classList.add('fa-minus');
+            };
+
+            items.forEach((item, index) => {
+                item.panel.style.transition = 'max-height 300ms ease, padding 300ms ease';
+                item.panel.dataset.open = index === 0 ? 'true' : 'false';
+                if (index === 0) {
+                    item.panel.style.maxHeight = item.panel.scrollHeight + 24 + 'px';
+                    item.panel.style.paddingBottom = '1.5rem';
+                } else {
+                    closeItem(item);
+                }
+
+                item.toggle.addEventListener('click', () => {
+                    const isOpen = item.toggle.getAttribute('aria-expanded') === 'true';
+                    items.forEach(closeItem);
+                    if (!isOpen) {
+                        openItem(item);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
