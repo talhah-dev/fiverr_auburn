@@ -4,60 +4,60 @@ if (navbar) {
   navbar.innerHTML = `
     <header class="fixed left-0 top-0 z-[9999] w-full border-b border-black/5 bg-white/95 backdrop-blur-sm shadow-sm shadow-black/5">
       <div class="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-4 sm:px-8 lg:px-10">
-        <a href="#home" class="flex shrink-0 items-center gap-3">
+        <a href="index.html" class="flex shrink-0 items-center gap-3">
           <img src="./docs/assets/logo.webp" alt="Auburn Appliance Repair Pros" class="h-14 w-auto sm:h-16" />
         </a>
 
         <nav class="hidden items-center gap-8 xl:flex">
-          <a href="#home" class=" font-medium text-[#3e3e3e] transition hover:text-[#652030]">Home</a>
+          <a href="index.html" class="font-medium text-[#3e3e3e] transition hover:text-[#652030]">Home</a>
 
           <div class="group relative">
-            <a href="#services" class="inline-flex items-center  font-medium text-[#3e3e3e] transition hover:text-[#652030]">
+            <a href="major-brands.html" class="inline-flex items-center font-medium text-[#3e3e3e] transition hover:text-[#652030]">
               Services
               <i class="fa-solid fa-chevron-down ml-2 text-sm transition group-hover:translate-y-0.5"></i>
             </a>
 
             <div class="invisible absolute left-0 top-full z-50 translate-y-2 pt-4 opacity-0 transition-all duration-200 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
               <div class="min-w-80 overflow-hidden rounded-sm bg-[#5d4645] shadow-2xl shadow-black/20">
-                <a href="#services" class="block px-6 py-6  font-semibold text-white transition hover:bg-[#652030]">Refrigerator Repair</a>
-                <a href="#services" class="block px-6 py-6  font-semibold text-white transition hover:bg-[#652030]">Dishwasher Repair</a>
-                <a href="#services" class="block px-6 py-6  font-semibold text-white transition hover:bg-[#652030]">Washer & Dryer Repair</a>
-                <a href="#services" class="block px-6 py-6  font-semibold text-white transition hover:bg-[#652030]">Stove & Oven Repair</a>
+                <a href="refrigerator-repair.html" class="block px-6 py-6 font-semibold text-white transition hover:bg-[#652030]">Refrigerator Repair</a>
+                <a href="dishwasher-repair.html" class="block px-6 py-6 font-semibold text-white transition hover:bg-[#652030]">Dishwasher Repair</a>
+                <a href="washer-dryer-repair.html" class="block px-6 py-6 font-semibold text-white transition hover:bg-[#652030]">Washer & Dryer Repair</a>
+                <a href="stove-oven-repair.html" class="block px-6 py-6 font-semibold text-white transition hover:bg-[#652030]">Stove & Oven Repair</a>
               </div>
             </div>
           </div>
 
           <div class="group relative">
-            <a href="#brands" class="inline-flex items-center  font-medium text-[#3e3e3e] transition hover:text-[#652030]">
+            <a href="major-brands.html" class="inline-flex items-center font-medium text-[#3e3e3e] transition hover:text-[#652030]">
               Major Brands
               <i class="fa-solid fa-chevron-down ml-2 text-sm transition group-hover:translate-y-0.5"></i>
             </a>
 
             <div class="invisible absolute left-0 top-full z-50 translate-y-2 pt-4 opacity-0 transition-all duration-200 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
               <div class="min-w-80 overflow-hidden rounded-sm bg-[#5d4645] shadow-2xl shadow-black/20">
-                <a href="#brands" class="block px-6 py-6  font-semibold text-white transition hover:bg-[#652030]">Samsung</a>
-                <a href="/maytag.html" class="block px-6 py-6  font-semibold text-white transition hover:bg-[#652030]">Maytag</a>
-                <a href="#brands" class="block px-6 py-6  font-semibold text-white transition hover:bg-[#652030]">GE</a>
-                <a href="#brands" class="block px-6 py-6  font-semibold text-white transition hover:bg-[#652030]">Kenmore</a>
-                <a href="#brands" class="block px-6 py-6  font-semibold text-white transition hover:bg-[#652030]">Whirlpool</a>
+                <a href="samsung.html" class="block px-6 py-6 font-semibold text-white transition hover:bg-[#652030]">Samsung</a>
+                <a href="maytag.html" class="block px-6 py-6 font-semibold text-white transition hover:bg-[#652030]">Maytag</a>
+                <a href="ge.html" class="block px-6 py-6 font-semibold text-white transition hover:bg-[#652030]">GE</a>
+                <a href="kenmore.html" class="block px-6 py-6 font-semibold text-white transition hover:bg-[#652030]">Kenmore</a>
+                <a href="whirlpool.html" class="block px-6 py-6 font-semibold text-white transition hover:bg-[#652030]">Whirlpool</a>
               </div>
             </div>
           </div>
 
           <div class="group relative">
-            <a href="#about" class="inline-flex items-center  font-medium text-[#3e3e3e] transition hover:text-[#652030]">
+            <a href="about.html" class="inline-flex items-center font-medium text-[#3e3e3e] transition hover:text-[#652030]">
               About
               <i class="fa-solid fa-chevron-down ml-2 text-sm transition group-hover:translate-y-0.5"></i>
             </a>
 
             <div class="invisible absolute left-0 top-full z-50 translate-y-2 pt-4 opacity-0 transition-all duration-200 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
               <div class="min-w-56 overflow-hidden rounded-sm bg-[#5d4645] shadow-2xl shadow-black/20">
-                <a href="#resources" class="block px-6 py-6  font-semibold text-white transition hover:bg-[#652030]">Resources</a>
+                <a href="resources.html" class="block px-6 py-6 font-semibold text-white transition hover:bg-[#652030]">Resources</a>
               </div>
             </div>
           </div>
 
-          <a href="#footer" class=" font-medium text-[#3e3e3e] transition hover:text-[#652030]">Contact</a>
+          <a href="contact.html" class="font-medium text-[#3e3e3e] transition hover:text-[#652030]">Contact</a>
         </nav>
 
         <a
@@ -105,7 +105,7 @@ if (navbar) {
           </div>
 
           <div class="flex flex-1 flex-col px-5 pb-10 pt-4">
-            <a href="#home" class="block border-b border-white/10 py-4 text-xl font-medium text-[#652030] transition hover:text-white">
+            <a href="index.html" class="block border-b border-white/10 py-4 text-xl font-medium text-[#652030] transition hover:text-white">
               Home
             </a>
 
@@ -126,10 +126,10 @@ if (navbar) {
               data-mobile-panel="services"
               class="max-h-0 overflow-hidden border-b border-white/10 opacity-0 transition-all duration-300 ease-out"
             >
-              <a href="#services" class="block border-b border-white/10 py-4 pl-8 text-lg text-white transition hover:bg-[#652030]">Refrigerator Repair</a>
-              <a href="#services" class="block border-b border-white/10 py-4 pl-8 text-lg text-white transition hover:bg-[#652030]">Dishwasher Repair</a>
-              <a href="#services" class="block border-b border-white/10 py-4 pl-8 text-lg text-white transition hover:bg-[#652030]">Washer & Dryer Repair</a>
-              <a href="#services" class="block py-4 pl-8 text-lg text-white transition hover:bg-[#652030]">Stove & Oven Repair</a>
+              <a href="refrigerator-repair.html" class="block border-b border-white/10 py-4 pl-8 text-lg text-white transition hover:bg-[#652030]">Refrigerator Repair</a>
+              <a href="dishwasher-repair.html" class="block border-b border-white/10 py-4 pl-8 text-lg text-white transition hover:bg-[#652030]">Dishwasher Repair</a>
+              <a href="washer-dryer-repair.html" class="block border-b border-white/10 py-4 pl-8 text-lg text-white transition hover:bg-[#652030]">Washer & Dryer Repair</a>
+              <a href="stove-oven-repair.html" class="block py-4 pl-8 text-lg text-white transition hover:bg-[#652030]">Stove & Oven Repair</a>
             </div>
 
             <!-- BRANDS -->
@@ -149,11 +149,11 @@ if (navbar) {
               data-mobile-panel="brands"
               class="max-h-0 overflow-hidden border-b border-white/10 opacity-0 transition-all duration-300 ease-out"
             >
-              <a href="#brands" class="block border-b border-white/10 py-4 pl-8 text-lg text-white transition hover:bg-[#652030]">Samsung</a>
-              <a href="/maytag.html" class="block border-b border-white/10 py-4 pl-8 text-lg text-white transition hover:bg-[#652030]">Maytag</a>
-              <a href="#brands" class="block border-b border-white/10 py-4 pl-8 text-lg text-white transition hover:bg-[#652030]">GE</a>
-              <a href="#brands" class="block border-b border-white/10 py-4 pl-8 text-lg text-white transition hover:bg-[#652030]">Kenmore</a>
-              <a href="#brands" class="block py-4 pl-8 text-lg text-white transition hover:bg-[#652030]">Whirlpool</a>
+              <a href="samsung.html" class="block border-b border-white/10 py-4 pl-8 text-lg text-white transition hover:bg-[#652030]">Samsung</a>
+              <a href="maytag.html" class="block border-b border-white/10 py-4 pl-8 text-lg text-white transition hover:bg-[#652030]">Maytag</a>
+              <a href="ge.html" class="block border-b border-white/10 py-4 pl-8 text-lg text-white transition hover:bg-[#652030]">GE</a>
+              <a href="kenmore.html" class="block border-b border-white/10 py-4 pl-8 text-lg text-white transition hover:bg-[#652030]">Kenmore</a>
+              <a href="whirlpool.html" class="block py-4 pl-8 text-lg text-white transition hover:bg-[#652030]">Whirlpool</a>
             </div>
 
             <!-- ABOUT -->
@@ -173,12 +173,12 @@ if (navbar) {
               data-mobile-panel="about"
               class="max-h-0 overflow-hidden border-b border-white/10 opacity-0 transition-all duration-300 ease-out"
             >
-              <a href="#resources" class="block py-4 pl-8 text-lg text-white transition hover:bg-[#652030]">
+              <a href="resources.html" class="block py-4 pl-8 text-lg text-white transition hover:bg-[#652030]">
                 Resources
               </a>
             </div>
 
-            <a href="#footer" class="block border-b border-white/10 py-4 text-xl font-medium text-white transition hover:text-[#652030]">
+            <a href="contact.html" class="block border-b border-white/10 py-4 text-xl font-medium text-white transition hover:text-[#652030]">
               Contact
             </a>
 
