@@ -36,7 +36,7 @@ if (navbar) {
             <div class="invisible absolute left-0 top-full z-50 translate-y-2 pt-4 opacity-0 transition-all duration-200 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
               <div class="min-w-80 overflow-hidden rounded-sm bg-[#5d4645] shadow-2xl shadow-black/20">
                 <a href="#brands" class="block px-6 py-6  font-semibold text-white transition hover:bg-[#652030]">Samsung</a>
-                <a href="#brands" class="block px-6 py-6  font-semibold text-white transition hover:bg-[#652030]">Maytag</a>
+                <a href="/maytag.html" class="block px-6 py-6  font-semibold text-white transition hover:bg-[#652030]">Maytag</a>
                 <a href="#brands" class="block px-6 py-6  font-semibold text-white transition hover:bg-[#652030]">GE</a>
                 <a href="#brands" class="block px-6 py-6  font-semibold text-white transition hover:bg-[#652030]">Kenmore</a>
                 <a href="#brands" class="block px-6 py-6  font-semibold text-white transition hover:bg-[#652030]">Whirlpool</a>
@@ -150,7 +150,7 @@ if (navbar) {
               class="max-h-0 overflow-hidden border-b border-white/10 opacity-0 transition-all duration-300 ease-out"
             >
               <a href="#brands" class="block border-b border-white/10 py-4 pl-8 text-lg text-white transition hover:bg-[#652030]">Samsung</a>
-              <a href="#brands" class="block border-b border-white/10 py-4 pl-8 text-lg text-white transition hover:bg-[#652030]">Maytag</a>
+              <a href="/maytag.html" class="block border-b border-white/10 py-4 pl-8 text-lg text-white transition hover:bg-[#652030]">Maytag</a>
               <a href="#brands" class="block border-b border-white/10 py-4 pl-8 text-lg text-white transition hover:bg-[#652030]">GE</a>
               <a href="#brands" class="block border-b border-white/10 py-4 pl-8 text-lg text-white transition hover:bg-[#652030]">Kenmore</a>
               <a href="#brands" class="block py-4 pl-8 text-lg text-white transition hover:bg-[#652030]">Whirlpool</a>

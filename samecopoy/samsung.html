@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Auburn's Trusted Appliance Repair</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://unpkg.com" crossorigin />
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./docs/Style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+</head>
+
+<style>
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-slide {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .brandSwiper .swiper-button-next,
+    .brandSwiper .swiper-button-prev {
+        color: #652030;
+    }
+
+    .brandSwiper .swiper-pagination-bullet {
+        background: #652030;
+        opacity: 0.35;
+    }
+
+    .brandSwiper .swiper-pagination-bullet-active {
+        opacity: 1;
+    }
+</style>
+
+<body class="overflow-x-hidden">
+
+    <div id="navbar"></div>
+
+    <!-- hero Section -->
+    <section id="home" class="relative mt-24 flex w-full items-center justify-center overflow-hidden "
+        style="background-image: url('./docs/assets/samsung.webp'); background-position: center; background-size: cover;">
+        <div class="absolute inset-0 bg-black/55"></div>
+
+        <div
+            class="relative z-10 mx-auto flex w-full max-w-6xl flex-col items-center px-5 py-24 text-center sm:px-8 lg:px-10">
+            <h1
+                class="max-w-3xl text-4xl font-bold leading-tight md:leading-[1.3] tracking-tight text-white drop-shadow-[0_3px_18px_rgba(0,0,0,0.45)] sm:text-5xl md:text-6xl">
+                Samsung Appliance Repair in Auburn, CA
+            </h1>
+            <p class="mt-4 text-lg text-white">Trusted Repairs for Samsung Refrigerators, Washers, Ovens, Dryers & More
+
+
+
+            </p>
+
+            <a href="tel:5304478105"
+                class="mt-8 inline-flex items-center gap-3 rounded-md bg-[#652030] px-7 py-2.5 text-lg font-semibold text-white shadow-lg shadow-black/30 transition duration-300 hover:-translate-y-0.5 hover:bg-[#533e3e] hover:shadow-xl hover:shadow-black/40">
+                <i class="fa-solid fa-phone-volume text-xl"></i>
+                CALL US NOW (530) 447-8105
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-white px-5 md:mt-10 py-5 text-[#111827] sm:px-8 lg:px-10 lg:py-10 scroll-mt-28">
+        <div class="mx-auto max-w-6xl">
+
+            <div class="md:mt-8 grid items-center gap-10 lg:grid-cols-2 lg:gap-14">
+                <div>
+
+                    <h3 class=" text-3xl font-bold leading-tight tracking-tight text-[#111827] sm:text-4xl">
+                        Reliable Samsung Appliance Repair from Local Experts in Auburn
+                    </h3>
+                    <p class="mt-4 max-w-2xl text-lg leading-8">
+                        Samsung appliances are known for their innovative technology, sleek designs, and advanced
+                        features. But when something goes wrong, those high-tech systems can be complicated to
+                        troubleshoot without the right knowledge. That’s why Auburn Appliance Repair is here to connect
+                        you with experienced technicians who specialize in Samsung appliance repairs across Auburn, CA.
+
+
+                    </p>
+                    <div class="flex items-center justify-center">
+
+                        <a href="tel:5304478105"
+                            class="mt-10 inline-flex items-center gap-3 rounded-md bg-[#652030] px-7 py-2.5 font-semibold text-white shadow-lg shadow-[#652030]/20 transition duration-300 hover:-translate-y-0.5 hover:bg-[#533e3e] hover:shadow-xl hover:shadow-[#652030]/25">
+                            <i class="fa-solid fa-phone-volume text-xl"></i>
+                            CALL NOW (530) 447-8105
+                        </a>
+                    </div>
+
+                    <p class="mt-8 max-w-2xl text-lg leading-8">
+                        Whether it’s a refrigerator that won’t cool, a washer displaying an error code, or a convection
+                        oven that isn’t heating evenly, local experts can handle it. These technicians are trained to
+                        diagnose and fix issues quickly and efficiently, using manufacturer-approved parts whenever
+                        possible. With same-day service availability in many cases, you won’t have to wait long to get
+                        your Samsung appliance back to peak performance.
+                    </p>
+
+                </div>
+
+                <div class="lg:pl-6">
+                    <div class="swiper brandSwiper overflow-hidden rounded-2xl">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./docs/assets/img37.webp" alt="Auburn appliance repair kitchen"
+                                    class="h-[420px] w-full object-cover sm:h-[470px] lg:h-[510px]" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./docs/assets/img29.webp" alt="Auburn appliance repair kitchen"
+                                    class="h-[420px] w-full object-cover sm:h-[470px] lg:h-[510px]" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./docs/assets/img39.webp" alt="Auburn appliance repair kitchen"
+                                    class="h-[420px] w-full object-cover sm:h-[470px] lg:h-[510px]" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./docs/assets/img14.webp" alt="Auburn appliance repair kitchen"
+                                    class="h-[420px] w-full object-cover sm:h-[470px] lg:h-[510px]" />
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="flex mt-10 items-center flex-col justify-center">
+                        <h3
+                            class=" text-xl font-bold leading-tight tracking-tight text-center text-[#111827] sm:text-2xl">
+                            appliance problem? Let’s fix it Now!
+
+                        </h3>
+                        <a href="tel:5304478105"
+                            class="mt-3 inline-flex items-center gap-3 rounded-md bg-[#652030] px-7 py-2.5 font-semibold text-white shadow-lg shadow-[#652030]/20 transition duration-300 hover:-translate-y-0.5 hover:bg-[#533e3e] hover:shadow-xl hover:shadow-[#652030]/25">
+                            <i class="fa-solid fa-phone-volume text-xl"></i>
+                            CALL US TODAY (530) 447-8105
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Brands Section -->
+    <section id="brands"
+        class="bg-[#222222] md:mt-12  mt-8 px-5 py-20 text-white sm:px-8 lg:px-10 lg:py-28 scroll-mt-28">
+        <div class="mx-auto grid max-w-7xl items-start gap-12 lg:grid-cols-[1fr_1.35fr] lg:gap-16">
+            <div class="flex items-center justify-start gap-6 pt-3">
+                <p class="text-lg font-semibold text-white sm:text-xl">Major Samsung
+                </p>
+                <span class="h-px w-40 bg-white/55 sm:w-64"></span>
+            </div>
+
+            <div class="text-end lg:pl-6">
+                <h2 class="text-2xl  font-bold leading-tight tracking-tight text-white sm:text-4xl ">
+                    Samsung Appliances Repaired in Auburn
+                </h2>
+                <p class="text-lg mt-4">From the laundry room to the kitchen, Samsung offers a full line of
+                    appliances—and we’ve got a solution for every one. Here’s a closer look at the types of Samsung
+                    appliances serviced in the Auburn area:
+
+
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="bg-white px-5 py-16 sm:px-8 lg:px-10 lg:py-20">
+        <div class="mx-auto max-w-7xl">
+            <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                <article class="overflow-hidden rounded-3xl bg-white shadow-lg shadow-black/10 ring-1 ring-black/5">
+                    <img src="./docs/assets/img40.webp" alt="Samsung Refrigerator Repair"
+                        class="h-56 w-full object-cover sm:h-76" />
+                    <div class="p-6 text-center text-[#111827]">
+                        <h3 class="text-2xl font-bold leading-tight">Samsung Refrigerator Repair</h3>
+                        <p class="mt-4 text-sm leading-7 text-[#1f2937]">Is your Samsung fridge running warm, leaking
+                            water, or making strange noises? Whether you have a French door, side-by-side, or smart
+                            Wi-Fi-enabled model, we’ll get you connected with a pro who knows exactly how to repair your
+                            Samsung refrigerator. Common issues include:</p>
+                        <ul class="mt-5 space-y-2 text-left text-sm leading-7 text-[#1f2937]">
+                            <li class="flex items-start gap-2"><i
+                                    class="fa-regular fa-circle-check mt-1 text-[#692434]"></i><span>Inconsistent
+                                    cooling or freezer not freezing</span></li>
+                            <li class="flex items-start gap-2"><i
+                                    class="fa-regular fa-circle-check mt-1 text-[#692434]"></i><span>Broken ice makers
+                                    or water dispensers</span></li>
+                            <li class="flex items-start gap-2"><i
+                                    class="fa-regular fa-circle-check mt-1 text-[#692434]"></i><span>Frost buildup or
+                                    faulty defrost systems</span></li>
+                            <li class="flex items-start gap-2"><i
+                                    class="fa-regular fa-circle-check mt-1 text-[#692434]"></i><span>Display panel or
+                                    control board failures</span></li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="overflow-hidden rounded-3xl bg-white shadow-lg shadow-black/10 ring-1 ring-black/5">
+                    <img src="./docs/assets/img44.webp" alt="Samsung Washer Repair"
+                        class="h-56 w-full object-cover sm:h-76" />
+                    <div class="p-6 text-center text-[#111827]">
+                        <h3 class="text-2xl font-bold leading-tight">Samsung Washer Repair</h3>
+                        <p class="mt-4 text-sm leading-7 text-[#1f2937]">Samsung washing machines are known for their
+                            deep cleaning technology and smart diagnostics. But when your washer won’t spin, drain, or
+                            start, things can get messy fast. Whether it’s a top-load or front-load model, technicians
+                            in Auburn can fix common issues like:</p>
+                        <ul class="mt-5 space-y-2 text-left text-sm leading-7 text-[#1f2937]">
+                            <li class="flex items-start gap-2"><i
+                                    class="fa-regular fa-circle-check mt-1 text-[#692434]"></i><span>Spin cycle not
+                                    working</span></li>
+                            <li class="flex items-start gap-2"><i
+                                    class="fa-regular fa-circle-check mt-1 text-[#692434]"></i><span>Unbalanced loads or
+                                    loud vibrations</span></li>
+                            <li class="flex items-start gap-2"><i
+                                    class="fa-regular fa-circle-check mt-1 text-[#692434]"></i><span>Error codes like
+                                    4E, 5E, or UE</span></li>
+                            <li class="flex items-start gap-2"><i
+                                    class="fa-regular fa-circle-check mt-1 text-[#692434]"></i><span>Leaky hoses or
+                                    malfunctioning door latches</span></li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="overflow-hidden rounded-3xl bg-white shadow-lg shadow-black/10 ring-1 ring-black/5">
+                    <img src="./docs/assets/img43.webp" alt="Samsung Dryer Repair"
+                        class="h-56 w-full object-cover sm:h-76" />
+                    <div class="p-6 text-center text-[#111827]">
+                        <h3 class="text-2xl font-bold leading-tight">Samsung Dryer Repair</h3>
+                        <p class="mt-4 text-sm leading-7 text-[#1f2937]">When your dryer isn’t heating, your laundry
+                            starts to pile up. Samsung dryers, both gas and electric, can suffer from issues that
+                            require experienced hands. Common dryer problems include:</p>
+                        <ul class="mt-5 space-y-2 text-left text-sm leading-7 text-[#1f2937]">
+                            <li class="flex items-start gap-2"><i
+                                    class="fa-regular fa-circle-check mt-1 text-[#692434]"></i><span>No heat or
+                                    insufficient drying</span></li>
+                            <li class="flex items-start gap-2"><i
+                                    class="fa-regular fa-circle-check mt-1 text-[#692434]"></i><span>Tumbling issues or
+                                    loud squeaking noises</span></li>
+                            <li class="flex items-start gap-2"><i
+                                    class="fa-regular fa-circle-check mt-1 text-[#692434]"></i><span>Thermal fuse or
+                                    heating element failures</span></li>
+                            <li class="flex items-start gap-2"><i
+                                    class="fa-regular fa-circle-check mt-1 text-[#692434]"></i><span>Dryer stopping
+                                    mid-cycle</span></li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+
+            <div class="mt-10 flex justify-center">
+                <a href="tel:5304478105"
+                    class="inline-flex items-center gap-3 rounded-md bg-[#652030] px-7 py-2.5 text-lg font-semibold text-white shadow-lg shadow-[#652030]/20 transition duration-300 hover:-translate-y-0.5 hover:bg-[#533e3e] hover:shadow-xl hover:shadow-[#652030]/25">
+                    <i class="fa-solid fa-phone-volume text-xl"></i>
+                    CALL US TODAY (530) 447-8105
+                </a>
+            </div>
+
+            <div class="mt-10 grid gap-6 md:grid-cols-2">
+                <article class="overflow-hidden rounded-3xl bg-white shadow-lg shadow-black/10 ring-1 ring-black/5">
+                    <img src="./docs/assets/img42.webp" alt="Samsung Oven and Range Repair"
+                        class="h-56 w-full object-cover sm:h-96" />
+                    <div class="p-6 text-center text-[#111827]">
+                        <h3 class="text-2xl font-bold leading-tight">Samsung Oven & Range Repair</h3>
+                        <p class="mt-4 text-sm leading-7 text-[#1f2937]">Samsung ovens and ranges offer precise cooking
+                            and stylish designs, but they can also experience issues with burners, convection fans, or
+                            digital controls. Local techs can help repair problems such as:</p>
+                        <ul class="mt-5 space-y-2 text-left text-sm leading-7 text-[#1f2937]">
+                            <li class="flex items-start gap-2"><i
+                                    class="fa-regular fa-circle-check mt-1 text-[#692434]"></i><span>Oven not reaching
+                                    the correct temperature</span></li>
+                            <li class="flex items-start gap-2"><i
+                                    class="fa-regular fa-circle-check mt-1 text-[#692434]"></i><span>Burners not
+                                    igniting or overheating</span></li>
+                            <li class="flex items-start gap-2"><i
+                                    class="fa-regular fa-circle-check mt-1 text-[#692434]"></i><span>Control panel
+                                    malfunctions</span></li>
+                            <li class="flex items-start gap-2"><i
+                                    class="fa-regular fa-circle-check mt-1 text-[#692434]"></i><span>Broken door hinges
+                                    or seals</span></li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="overflow-hidden rounded-3xl bg-white shadow-lg shadow-black/10 ring-1 ring-black/5">
+                    <img src="./docs/assets/img13.webp" alt="Samsung Dishwasher Repair"
+                        class="h-56 w-full object-cover sm:h-96" />
+                    <div class="p-6 text-center text-[#111827]">
+                        <h3 class="text-2xl font-bold leading-tight">Samsung Dishwasher Repair</h3>
+                        <p class="mt-4 text-sm leading-7 text-[#1f2937]">When your Samsung dishwasher leaves dishes
+                            dirty or starts leaking, it’s time to schedule a repair. Auburn professionals can handle
+                            dishwasher malfunctions including:</p>
+                        <ul class="mt-5 space-y-2 text-left text-sm leading-7 text-[#1f2937]">
+                            <li class="flex items-start gap-2"><i
+                                    class="fa-regular fa-circle-check mt-1 text-[#692434]"></i><span>Dishwasher not
+                                    draining or filling</span></li>
+                            <li class="flex items-start gap-2"><i
+                                    class="fa-regular fa-circle-check mt-1 text-[#692434]"></i><span>Leaks from the door
+                                    or underneath</span></li>
+                            <li class="flex items-start gap-2"><i
+                                    class="fa-regular fa-circle-check mt-1 text-[#692434]"></i><span>Unresponsive
+                                    control panel or error codes</span></li>
+                            <li class="flex items-start gap-2"><i
+                                    class="fa-regular fa-circle-check mt-1 text-[#692434]"></i><span>Inconsistent water
+                                    temperature or spray pressure</span></li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+
+            <div class="mt-10 flex justify-center">
+                <a href="tel:5304478105"
+                    class="inline-flex items-center gap-3 rounded-md bg-[#652030] px-7 py-2.5 text-lg font-semibold text-white shadow-lg shadow-[#652030]/20 transition duration-300 hover:-translate-y-0.5 hover:bg-[#533e3e] hover:shadow-xl hover:shadow-[#652030]/25">
+                    <i class="fa-solid fa-phone-volume text-xl"></i>
+                    CALL US NOW (530) 447-8105
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="bg-zinc-50 px-5 py-16 text-[#111827] sm:px-8 lg:px-10 lg:py-20">
+        <div class="mx-auto max-w-7xl">
+            <div class="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
+                <div class="lg:pr-4">
+                    <div class="overflow-hidden rounded-3xl shadow-2xl shadow-black/10">
+                        <img src="./docs/assets/img41.webp" alt="Why choose Auburn Appliance Repair Pros"
+                            class="h-[380px] w-full object-cover sm:h-[420px] lg:h-[520px]" />
+                    </div>
+
+                    <div class="mt-12 flex justify-center items-center">
+                        <a href="tel:5304478105"
+                            class="inline-flex items-center gap-3 rounded-md bg-[#692434] px-8 py-2.5 text-xl font-semibold text-white shadow-lg shadow-black/25 transition duration-300 hover:-translate-y-0.5 hover:bg-[#922847] hover:shadow-xl hover:shadow-black/35">
+                            <i class="fa-solid fa-phone-volume text-xl"></i>
+                            CALL US NOW (530) 447-8105
+                        </a>
+                    </div>
+                </div>
+
+                <div class="lg:pl-8">
+                    <div class="flex items-center gap-6">
+                        <h2 class="text-lg font-semibold text-[#111827] sm:text-xl">
+                            What makes us different
+                        </h2>
+
+                        <span class="hidden h-px w-56 bg-[#7f1f3a]/70 sm:block"></span>
+                    </div>
+
+                    <h3
+                        class="mt-8 max-w-3xl text-2xl font-bold leading-tight tracking-tight text-[#111827] sm:text-4xl">
+                        Why Auburn Residents Choose Us for Samsung Appliance Repair
+                    </h3>
+
+                    <div class="mt-10 space-y-6 text-lg leading-8 text-[#1f2937]">
+                        <div class="flex items-start gap-3">
+                            <i class="fa-regular fa-circle-check mt-2.5 text-[#692434]"></i>
+                            <p>
+                                <span class="font-bold text-[#111827]">Samsung Specialists:</span>
+                                Technicians with experience handling even the newest Samsung models.
+                            </p>
+                        </div>
+
+                        <div class="flex items-start gap-3">
+                            <i class="fa-regular fa-circle-check mt-2.5 text-[#692434]"></i>
+                            <p>
+                                <span class="font-bold text-[#111827]">Same-Day Service Available:</span>
+                                Fast scheduling and quick turnarounds when availability allows.
+                            </p>
+                        </div>
+
+                        <div class="flex items-start gap-3">
+                            <i class="fa-regular fa-circle-check mt-2.5 text-[#692434]"></i>
+                            <p>
+                                <span class="font-bold text-[#111827]">Fully Stocked Trucks:</span>
+                                Most techs arrive prepared with parts for common Samsung appliance repairs.
+                            </p>
+                        </div>
+
+                        <div class="flex items-start gap-3">
+                            <i class="fa-regular fa-circle-check mt-2.5 text-[#692434]"></i>
+                            <p>
+                                <span class="font-bold text-[#111827]">Upfront Pricing:</span>
+                                Transparent estimates so there are no surprises.
+                            </p>
+                        </div>
+
+                        <div class="flex items-start gap-3">
+                            <i class="fa-regular fa-circle-check mt-2.5 text-[#692434]"></i>
+                            <p>
+                                <span class="font-bold text-[#111827]">Friendly, Local Service:</span>
+                                Work with professionals from right here in Auburn who care about the community.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Call To Action Section -->
+    <section
+        class="relative isolate flex min-h-[660px] items-center justify-center overflow-hidden bg-black px-5 py-20 text-white sm:px-8 lg:px-10"
+        style="background-image: url('./docs/assets/img1.webp'); background-position: center; background-size: cover; background-attachment: fixed;">
+        <div class="absolute inset-0 bg-black/58"></div>
+
+
+        <div class="relative z-10 mx-auto w-full max-w-7xl text-center">
+            <h2
+                class="mx-auto max-w-5xl text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl md:text-4xl">
+                Schedule Your Samsung Appliance Repair in Auburn Today
+            </h2>
+
+            <div class="mt-10 grid gap-10 text-lg max-w-5xl mx-auto leading-9 text-white/95 ">
+                <p>
+                    Don’t wait for a minor issue to turn into a major breakdown. Whether you’re dealing with a faulty
+                    control board or a leaking washer, Auburn Appliance Repair will get you in touch with someone who
+                    can get your Samsung appliance back on track. Call today to schedule an appointment with a trusted
+                    local repair expert.
+
+
+                </p>
+            </div>
+
+            <div class="mt-12 flex flex-col items-center gap-4">
+                <a href="tel:5304478105"
+                    class="inline-flex items-center gap-3 rounded-md bg-[#692434] px-7 py-2.5 text-xl font-semibold text-white shadow-lg shadow-black/25 transition duration-300 hover:-translate-y-0.5 hover:bg-[#922847] hover:shadow-xl hover:shadow-black/35">
+                    <i class="fa-solid fa-phone-volume text-xl"></i>
+                    CALL US NOW (530) 447-8105
+                </a>
+                <a href="#"
+                    class="inline-flex items-center gap-3 rounded-md bg-[#1f1f1f] px-7 py-2.5 text-xl font-semibold text-white shadow-lg shadow-black/25 transition duration-300 hover:-translate-y-0.5 hover:bg-[#2a2a2a] hover:shadow-xl hover:shadow-black/35">
+                    <i class="fa-solid fa-phone-volume text-xl"></i>
+                    SERVING AUBURN AND SURROUNDING AREAS
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer"></div>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://unpkg.com/lenis@1.3.1/dist/lenis.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="./docs/javascript/global.js"></script>
+    <script src="./docs/javascript/Navbar.js"></script>
+    <script src="./docs/javascript/Footer.js"></script>
+
+    <script>
+        new Swiper(".brandSwiper", {
+            loop: true,
+            speed: 700,
+            autoplay: {
+                delay: 3500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".brandSwiper .swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".brandSwiper .swiper-button-next",
+                prevEl: ".brandSwiper .swiper-button-prev",
+            },
+        });
+    </script>
+
+</body>
+
+</html>
