@@ -110,17 +110,22 @@ if (navbar) {
             </a>
 
             <!-- SERVICES -->
-            <button
-              data-mobile-group="services"
-              type="button"
-              class="flex w-full items-center justify-between border-b border-white/10 py-4 text-left text-xl font-medium text-white transition hover:text-[#652030]"
-            >
-              <span>Services</span>
-              <i
-                data-mobile-icon="services"
-                class="fa-solid fa-chevron-down text-sm transition-transform duration-300"
-              ></i>
-            </button>
+            <div class="flex items-stretch border-b border-white/10">
+              <a href="major-brands.html" class="flex flex-1 items-center py-4 text-xl font-medium text-white transition hover:text-[#652030]">
+                Services
+              </a>
+              <button
+                data-mobile-toggle="services"
+                type="button"
+                class="flex w-14 items-center justify-center text-white transition hover:text-[#652030]"
+                aria-label="Toggle Services submenu"
+              >
+                <i
+                  data-mobile-icon="services"
+                  class="fa-solid fa-chevron-down text-sm transition-transform duration-300"
+                ></i>
+              </button>
+            </div>
 
             <div
               data-mobile-panel="services"
@@ -133,17 +138,22 @@ if (navbar) {
             </div>
 
             <!-- BRANDS -->
-            <button
-              data-mobile-group="brands"
-              type="button"
-              class="flex w-full items-center justify-between border-b border-white/10 py-4 text-left text-xl font-medium text-white transition hover:text-[#652030]"
-            >
-              <span>Major Brands</span>
-              <i
-                data-mobile-icon="brands"
-                class="fa-solid fa-chevron-down text-sm transition-transform duration-300"
-              ></i>
-            </button>
+            <div class="flex items-stretch border-b border-white/10">
+              <a href="major-brands.html" class="flex flex-1 items-center py-4 text-xl font-medium text-white transition hover:text-[#652030]">
+                Major Brands
+              </a>
+              <button
+                data-mobile-toggle="brands"
+                type="button"
+                class="flex w-14 items-center justify-center text-white transition hover:text-[#652030]"
+                aria-label="Toggle Major Brands submenu"
+              >
+                <i
+                  data-mobile-icon="brands"
+                  class="fa-solid fa-chevron-down text-sm transition-transform duration-300"
+                ></i>
+              </button>
+            </div>
 
             <div
               data-mobile-panel="brands"
@@ -157,17 +167,22 @@ if (navbar) {
             </div>
 
             <!-- ABOUT -->
-            <button
-              data-mobile-group="about"
-              type="button"
-              class="flex w-full items-center justify-between border-b border-white/10 py-4 text-left text-xl font-medium text-white transition hover:text-[#652030]"
-            >
-              <span>About</span>
-              <i
-                data-mobile-icon="about"
-                class="fa-solid fa-chevron-down text-sm transition-transform duration-300"
-              ></i>
-            </button>
+            <div class="flex items-stretch border-b border-white/10">
+              <a href="about.html" class="flex flex-1 items-center py-4 text-xl font-medium text-white transition hover:text-[#652030]">
+                About
+              </a>
+              <button
+                data-mobile-toggle="about"
+                type="button"
+                class="flex w-14 items-center justify-center text-white transition hover:text-[#652030]"
+                aria-label="Toggle About submenu"
+              >
+                <i
+                  data-mobile-icon="about"
+                  class="fa-solid fa-chevron-down text-sm transition-transform duration-300"
+                ></i>
+              </button>
+            </div>
 
             <div
               data-mobile-panel="about"
@@ -279,7 +294,7 @@ if (navbar) {
 
   // CLOSE ON LINK CLICK
   if (mobileNav) {
-    mobileNav.querySelectorAll('a[href^="#"], a[href^="tel:"]').forEach((link) => {
+    mobileNav.querySelectorAll("a[href]").forEach((link) => {
       link.addEventListener("click", () => {
         closeMobileNav();
       });
@@ -287,11 +302,11 @@ if (navbar) {
   }
 
   // MOBILE ACCORDIONS
-  const mobileGroups = navbar.querySelectorAll("[data-mobile-group]");
+  const mobileGroups = navbar.querySelectorAll("[data-mobile-toggle]");
 
   mobileGroups.forEach((button) => {
     button.addEventListener("click", () => {
-      const groupName = button.getAttribute("data-mobile-group");
+      const groupName = button.getAttribute("data-mobile-toggle");
 
       const panel = navbar.querySelector(`[data-mobile-panel="${groupName}"]`);
 
